@@ -9,22 +9,27 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+import numpy as np
+import math
+import pylab
+import random
+import time
+import progressbar
+from progressbar import ProgressBar
+from scipy import interpolate
+from scipy.optimize import curve_fit
+from scipy import stats
+from random import randint
+from collections import Counter
+import matplotlib.pyplot as plt
+import matplotlib.mlab as mlab
+from matplotlib import style
+%matplotlib inline
+%config InlineBackend.figure_format = 'svg'
+style.use('seaborn-white')
+import ipywidgets as widgets
+from ipywidgets import Layout, Button, Box, FloatText, Textarea, Dropdown, Label, IntSlider
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
